@@ -9,4 +9,9 @@ FactoryGirl.define do
 			admin true
 		end
 	end
+
+	factory :micropost do
+		content "Tweet, tweet, tweet"
+		user
+	end
 end
